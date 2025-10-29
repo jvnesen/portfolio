@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
   return (
-    <nav className="fixed left-8 top-8 flex flex-col gap-4">
+    <nav className="fixed left-8 top-12 flex flex-col gap-4">
       <div className="text-primary font-normal text-base mb-2">
         jonathan liu
       </div>
