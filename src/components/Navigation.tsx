@@ -16,7 +16,7 @@ const Navigation = () => {
           }`
         }
       >
-        overview
+        pen
       </NavLink>
       
       <NavLink
