@@ -20,6 +20,17 @@ const Navigation = () => {
       </NavLink>
       
       <NavLink
+        to="/digital"
+        className={({ isActive }) =>
+          `text-foreground text-base transition-all hover:font-semibold ${
+            isActive ? "font-semibold" : "font-normal"
+          }`
+        }
+      >
+        digital
+      </NavLink>
+      
+      <NavLink
         to="/contact"
         className={({ isActive }) =>
           `text-foreground text-base transition-all hover:font-semibold ${
