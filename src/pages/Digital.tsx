@@ -8,6 +8,7 @@ import sproutToTree from "@/assets/41finalFINAL-01.png";
 import platformGif from "@/assets/platformfinal.gif";
 import triptic from "@/assets/tripticSI-01.png";
 import meetTeam from "@/assets/CCmeettheteam2-01.jpg";
+import ImageGallery from "@/components/ImageGallery";
 
 const Digital = () => {
   const images = [
@@ -25,17 +26,7 @@ const Digital = () => {
 
   return (
     <div className="min-h-screen bg-background pl-48 pr-8 py-12">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl">
-        {images.map((image, index) => (
-          <div key={index} className="aspect-square overflow-hidden">
-            <img
-              src={image.src}
-              alt={image.alt}
-              className="w-full h-full object-cover transition-opacity hover:opacity-80"
-            />
-          </div>
-        ))}
-      </div>
+      <ImageGallery images={images} />
     </div>
   );
 };
