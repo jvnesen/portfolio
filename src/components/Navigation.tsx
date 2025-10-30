@@ -40,6 +40,17 @@ const Navigation = () => {
       >
         contact // about
       </NavLink>
+      
+      <NavLink
+        to="/resume"
+        className={({ isActive }) =>
+          `text-foreground text-base transition-all hover:font-semibold ${
+            isActive ? "font-semibold" : "font-normal"
+          }`
+        }
+      >
+        resume
+      </NavLink>
     </nav>
   );
 };
