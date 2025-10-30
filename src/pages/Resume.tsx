@@ -1,3 +1,5 @@
+import { Download } from "lucide-react";
+
 const Resume = () => {
   return (
     <div className="min-h-screen bg-background pl-48 pr-8 py-12">
@@ -9,9 +11,10 @@ const Resume = () => {
             href="/JonathanLiuResume.pdf" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="text-primary hover:underline"
+            className="text-primary hover:underline inline-flex items-center gap-1"
           >
             download pdf resume
+            <Download size={16} />
           </a>
         </div>
         
