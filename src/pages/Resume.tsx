@@ -14,7 +14,7 @@ const Resume = () => {
             className="text-primary hover:underline inline-flex items-center gap-1"
           >
             download pdf resume
-            <Download size={16} />
+            <Download size={16} strokeWidth={1.5} />
           </a>
         </div>
         
