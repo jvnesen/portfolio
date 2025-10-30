@@ -2,15 +2,20 @@ const Resume = () => {
   return (
     <div className="min-h-screen bg-background pl-48 pr-8 py-12">
       <div className="max-w-4xl">
-        <h1 className="text-2xl font-semibold mb-8 text-foreground">resume</h1>
+        <h1 className="text-2xl font-semibold mb-4 text-foreground">resume</h1>
+        
+        <div className="mb-8">
+          <a 
+            href="/JonathanLiuResume.pdf" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-primary hover:underline"
+          >
+            download pdf resume
+          </a>
+        </div>
         
         <div className="space-y-8 text-foreground">
-          <section>
-            <h2 className="text-xl font-semibold mb-4">Jonathan Liu</h2>
-            <p className="mb-2">liujonathan.com</p>
-            <p className="mb-2">925 750 4724 | jol099@ucsd.edu | @jona9x</p>
-          </section>
-
           <section>
             <h2 className="text-xl font-semibold mb-4">Education</h2>
             <div className="space-y-2">
@@ -80,17 +85,6 @@ const Resume = () => {
               PPT/Slides, Procreate / Sketchbook, Adobe Animate, Adobe Express
             </p>
           </section>
-
-          <div className="mt-8">
-            <a 
-              href="/JonathanLiuResume.pdf" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-primary hover:underline"
-            >
-              Download PDF Resume
-            </a>
-          </div>
         </div>
       </div>
     </div>
