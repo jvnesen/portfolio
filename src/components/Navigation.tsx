@@ -16,7 +16,7 @@ const Navigation = () => {
           }`
         }
       >
-        pen
+        analog
       </NavLink>
       
       <NavLink

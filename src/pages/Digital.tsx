@@ -8,6 +8,7 @@ import sproutToTree from "@/assets/41finalFINAL-01.png";
 import platformGif from "@/assets/platformfinal.gif";
 import triptic from "@/assets/tripticSI-01.png";
 import meetTeam from "@/assets/CCmeettheteam2-01.jpg";
+import wjeInfoNight from "@/assets/ccWJEINFONIGHfinal-01.png";
 import ImageGallery from "@/components/ImageGallery";
 
 const Digital = () => {
@@ -21,7 +22,8 @@ const Digital = () => {
     { src: sproutToTree, alt: "From Sprout To Tree" },
     { src: platformGif, alt: "Platform Animation" },
     { src: triptic, alt: "The Monstrosity Advance Triptych" },
-    { src: meetTeam, alt: "Meet the Team" }
+    { src: meetTeam, alt: "Meet the Team" },
+    { src: wjeInfoNight, alt: "WJE Info Night" }
   ];
 
   return (
