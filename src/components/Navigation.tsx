@@ -11,7 +11,7 @@ const Navigation = () => {
         to="/"
         end
         className={({ isActive }) =>
-          `text-foreground text-base transition-all hover:font-semibold ${
+          `text-foreground text-base transition-all hover:font-semibold hover:text-[#f76911] ${
             isActive ? "font-semibold" : "font-normal"
           }`
         }
@@ -22,7 +22,7 @@ const Navigation = () => {
       <NavLink
         to="/digital"
         className={({ isActive }) =>
-          `text-foreground text-base transition-all hover:font-semibold ${
+          `text-foreground text-base transition-all hover:font-semibold hover:text-[#f76911] ${
             isActive ? "font-semibold" : "font-normal"
           }`
         }
@@ -33,7 +33,7 @@ const Navigation = () => {
       <NavLink
         to="/contact"
         className={({ isActive }) =>
-          `text-foreground text-base transition-all hover:font-semibold ${
+          `text-foreground text-base transition-all hover:font-semibold hover:text-[#f76911] ${
             isActive ? "font-semibold" : "font-normal"
           }`
         }
@@ -44,7 +44,7 @@ const Navigation = () => {
       <NavLink
         to="/resume"
         className={({ isActive }) =>
-          `text-foreground text-base transition-all hover:font-semibold ${
+          `text-foreground text-base transition-all hover:font-semibold hover:text-[#f76911] ${
             isActive ? "font-semibold" : "font-normal"
           }`
         }

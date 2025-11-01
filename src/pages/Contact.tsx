@@ -12,7 +12,7 @@ const Contact = () => {
           <p>
             <a 
               href="mailto:jdliu31@gmail.com" 
-              className="hover:underline"
+              className="hover:underline hover:text-[#f76911]"
             >
               jdliu31@gmail.com
             </a>
@@ -23,7 +23,7 @@ const Contact = () => {
               href="https://instagram.com/jona9x" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="hover:underline"
+              className="hover:underline hover:text-[#f76911]"
             >
               @jona9x
             </a>

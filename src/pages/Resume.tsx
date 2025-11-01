@@ -11,7 +11,7 @@ const Resume = () => {
             href="/JonathanLiuResume.pdf" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="text-primary hover:underline inline-flex items-center gap-1"
+            className="text-primary hover:underline hover:text-[#f76911] inline-flex items-center gap-1"
           >
             download pdf resume
             <Download size={16} strokeWidth={1.5} />
