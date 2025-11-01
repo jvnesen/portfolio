@@ -18,12 +18,12 @@ const Digital = () => {
     { src: siNo9, alt: "Digital Illustration" },
     { src: sponsorPack, alt: "Sponsorship Package" },
     { src: minecraft, alt: "Minecraft Build" },
+    { src: wjeInfoNight, alt: "WJE Info Night" },
     { src: si12, alt: "Character Illustration" },
     { src: sproutToTree, alt: "From Sprout To Tree" },
     { src: platformGif, alt: "Platform Animation" },
     { src: triptic, alt: "The Monstrosity Advance Triptych" },
-    { src: meetTeam, alt: "Meet the Team" },
-    { src: wjeInfoNight, alt: "WJE Info Night" }
+    { src: meetTeam, alt: "Meet the Team" }
   ];
 
   return (
