@@ -9,7 +9,7 @@ const Contact = () => {
             Jonathan Liu is a student at UCSD in the ICAM program. His favorite font is Helvetica.
           </p>
           
-          <p className="!mt-12">
+          <p>
             <a 
               href="mailto:jdliu31@gmail.com" 
               className="hover:underline hover:text-[#f76911]"
