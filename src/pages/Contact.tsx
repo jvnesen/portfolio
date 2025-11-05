@@ -20,6 +20,17 @@ const Contact = () => {
           
           <p>
             <a 
+              href="https://linkedin.com/in/jondliu" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:underline hover:text-[#f76911]"
+            >
+              linkedin.com/in/jondliu
+            </a>
+          </p>
+          
+          <p>
+            <a 
               href="https://instagram.com/jona9x" 
               target="_blank" 
               rel="noopener noreferrer"
