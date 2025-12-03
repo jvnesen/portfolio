@@ -15,7 +15,7 @@ const ThreeD = () => {
           camera={{ position: [5, 5, 5], fov: 50 }}
           gl={{ antialias: true, toneMapping: 0 }}
         >
-          <color attach="background" args={["#1a1a1a"]} />
+          <color attach="background" args={["#ffffff"]} />
           <Suspense fallback={null}>
             <ambientLight intensity={0.15} />
             <directionalLight 
