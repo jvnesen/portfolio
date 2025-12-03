@@ -17,15 +17,17 @@ const ThreeD = () => {
         >
           <color attach="background" args={["#ffffff"]} />
           <Suspense fallback={null}>
-            <ambientLight intensity={0.15} />
+            <ambientLight intensity={0.12} color="#fff5e6" />
             <directionalLight 
-              position={[8, 12, 5]} 
-              intensity={1.5} 
+              position={[2, 15, 2]} 
+              intensity={1.2} 
+              color="#ffd699"
               castShadow
             />
             <directionalLight 
-              position={[-3, 5, -5]} 
-              intensity={0.3} 
+              position={[-3, 8, -5]} 
+              intensity={0.2} 
+              color="#ffe4b3"
             />
             <Model />
             <OrbitControls 
