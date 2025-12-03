@@ -17,7 +17,7 @@ const ThreeD = () => {
         >
           <color attach="background" args={["#ffffff"]} />
           <Suspense fallback={null}>
-            <ambientLight intensity={0.08} color="#ffcc99" />
+            <ambientLight intensity={0.15} color="#ffcc99" />
             <directionalLight 
               position={[3, 14, 2]} 
               intensity={0.7} 
@@ -28,6 +28,11 @@ const ThreeD = () => {
               position={[-4, 10, -3]} 
               intensity={0.15} 
               color="#ffb380"
+            />
+            <directionalLight 
+              position={[-2, 6, -8]} 
+              intensity={0.25} 
+              color="#ffeedd"
             />
             <Model />
             <OrbitControls 
