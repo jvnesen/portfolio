@@ -13,19 +13,26 @@ const ThreeD = () => {
       <div className="w-full h-[calc(100vh-6rem)] rounded-lg overflow-hidden bg-muted/20">
         <Canvas
           camera={{ position: [5, 5, 5], fov: 50 }}
-          style={{ background: "transparent" }}
+          gl={{ antialias: true, toneMapping: 0 }}
         >
+          <color attach="background" args={["#1a1a1a"]} />
           <Suspense fallback={null}>
-            <ambientLight intensity={0.4} color="#ffb380" />
-            <directionalLight position={[10, 10, 5]} intensity={0.6} />
-            <directionalLight position={[-5, 5, -5]} intensity={0.3} />
+            <ambientLight intensity={0.15} />
+            <directionalLight 
+              position={[8, 12, 5]} 
+              intensity={1.5} 
+              castShadow
+            />
+            <directionalLight 
+              position={[-3, 5, -5]} 
+              intensity={0.3} 
+            />
             <Model />
             <OrbitControls 
               enablePan={true}
               enableZoom={true}
               enableRotate={true}
             />
-            <Environment preset="studio" />
           </Suspense>
         </Canvas>
       </div>
