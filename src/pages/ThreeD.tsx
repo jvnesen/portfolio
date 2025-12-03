@@ -16,8 +16,9 @@ const ThreeD = () => {
           style={{ background: "transparent" }}
         >
           <Suspense fallback={null}>
-            <ambientLight intensity={0.5} />
-            <directionalLight position={[10, 10, 5]} intensity={1} />
+            <ambientLight intensity={0.4} color="#ffb380" />
+            <directionalLight position={[10, 10, 5]} intensity={0.6} />
+            <directionalLight position={[-5, 5, -5]} intensity={0.3} />
             <Model />
             <OrbitControls 
               enablePan={true}
