@@ -19,13 +19,13 @@ const ThreeD = () => {
           <Suspense fallback={null}>
             <ambientLight intensity={0.08} color="#ffcc99" />
             <directionalLight 
-              position={[3, 8, 2]} 
+              position={[3, 14, 2]} 
               intensity={0.7} 
               color="#ff9966"
               castShadow
             />
             <directionalLight 
-              position={[-4, 3, -3]} 
+              position={[-4, 10, -3]} 
               intensity={0.15} 
               color="#ffb380"
             />
