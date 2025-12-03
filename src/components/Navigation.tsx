@@ -31,6 +31,17 @@ const Navigation = () => {
       </NavLink>
       
       <NavLink
+        to="/3d"
+        className={({ isActive }) =>
+          `text-foreground text-base transition-all hover:font-semibold hover:text-[#f76911] ${
+            isActive ? "font-semibold" : "font-normal"
+          }`
+        }
+      >
+        3d
+      </NavLink>
+      
+      <NavLink
         to="/contact"
         className={({ isActive }) =>
           `text-foreground text-base transition-all hover:font-semibold hover:text-[#f76911] ${
