@@ -17,7 +17,7 @@ const ThreeD = () => {
         >
           <color attach="background" args={["#ffffff"]} />
           <Suspense fallback={null}>
-            <ambientLight intensity={0.15} color="#ffcc99" />
+            <ambientLight intensity={0.21} color="#ffcc99" />
             <directionalLight 
               position={[3, 14, 2]} 
               intensity={0.7} 
@@ -31,7 +31,7 @@ const ThreeD = () => {
             />
             <directionalLight 
               position={[-2, 6, -8]} 
-              intensity={0.25} 
+              intensity={0.35} 
               color="#ffeedd"
             />
             <Model />
