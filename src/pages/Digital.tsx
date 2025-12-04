@@ -10,6 +10,7 @@ import platformGif from "@/assets/platformfinal.gif";
 import triptic from "@/assets/tripticSI-01.png";
 import meetTeam from "@/assets/CCmeettheteam2-01.jpg";
 import wjeInfoNight from "@/assets/ccWJEINFONIGHfinal-01.png";
+import visProjRender from "@/assets/visprojrender.png";
 import ImageGallery from "@/components/ImageGallery";
 
 const Digital = () => {
@@ -21,6 +22,7 @@ const Digital = () => {
     { src: minecraft, alt: "Minecraft Build" },
     { src: slimeEvent, alt: "Make Slime and Destress Event" },
     { src: wjeInfoNight, alt: "WJE Info Night" },
+    { src: visProjRender, alt: "3D Environment Render" },
     { src: si12, alt: "Character Illustration" },
     { src: sproutToTree, alt: "From Sprout To Tree" },
     { src: platformGif, alt: "Platform Animation" },
