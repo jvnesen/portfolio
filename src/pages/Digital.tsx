@@ -1,3 +1,4 @@
+import jooelFinal from "@/assets/jooelfinal-01.png";
 import jrLeadApps from "@/assets/CCjrleadapps-01.png";
 import hikeWeek4 from "@/assets/CChikeWEEK4-01.png";
 import siNo9 from "@/assets/si_no_9-01.png";
@@ -15,6 +16,7 @@ import ImageGallery from "@/components/ImageGallery";
 
 const Digital = () => {
   const images = [
+    { src: jooelFinal, alt: "Stuck in a Pickle Design" },
     { src: jrLeadApps, alt: "Junior Lead Applications" },
     { src: hikeWeek4, alt: "Sunset Hike Bonfire" },
     { src: siNo9, alt: "Digital Illustration" },
