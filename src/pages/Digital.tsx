@@ -1,3 +1,4 @@
+import pourDay from "@/assets/ucsdccpourday-01.png";
 import jooelFinal from "@/assets/jooelfinal-01.png";
 import jrLeadApps from "@/assets/CCjrleadapps-01.png";
 import hikeWeek4 from "@/assets/CChikeWEEK4-01.png";
@@ -16,6 +17,7 @@ import ImageGallery from "@/components/ImageGallery";
 
 const Digital = () => {
   const images = [
+    { src: pourDay, alt: "Concrete Canoe Pour Day" },
     { src: jooelFinal, alt: "Stuck in a Pickle Design" },
     { src: jrLeadApps, alt: "Junior Lead Applications" },
     { src: hikeWeek4, alt: "Sunset Hike Bonfire" },
