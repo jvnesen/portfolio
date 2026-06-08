@@ -6,16 +6,28 @@ const Resume = () => {
       <div className="max-w-4xl">
         <h1 className="text-2xl font-semibold mb-4 text-foreground">resume</h1>
         
-        <div className="mb-8">
-          <a 
-            href="/JonathanLiuResume.pdf" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="text-primary hover:underline hover:text-[#f76911] inline-flex items-center gap-1"
-          >
-            download pdf resume
-            <Download size={16} strokeWidth={1.5} />
-          </a>
+        <div className="mb-8 space-y-2">
+          <div>
+            <a
+              href="https://www.linkedin.com/in/jondliu/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary hover:underline hover:text-[#f76911] inline-flex items-center gap-1"
+            >
+              linkedin
+            </a>
+          </div>
+          <div>
+            <a
+              href="/JonathanLiuResume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary hover:underline hover:text-[#f76911] inline-flex items-center gap-1"
+            >
+              download pdf resume
+              <Download size={16} strokeWidth={1.5} />
+            </a>
+          </div>
         </div>
         
         <div className="space-y-8 text-foreground">
