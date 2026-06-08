@@ -1,3 +1,5 @@
+import chinProj1 from "@/assets/chinfinalprojcm1final.png";
+import chinProj2 from "@/assets/chinfinalprojcm2final.png";
 import pourDay from "@/assets/ucsdccpourday-01.png";
 import jooelFinal from "@/assets/jooelfinal-01.png";
 import jrLeadApps from "@/assets/CCjrleadapps-01.png";
@@ -17,6 +19,8 @@ import ImageGallery from "@/components/ImageGallery";
 
 const Digital = () => {
   const images = [
+    { src: chinProj1, alt: "Flushing NYC Chinatown Project - Page 1" },
+    { src: chinProj2, alt: "Flushing NYC Chinatown Project - Page 2" },
     { src: pourDay, alt: "Concrete Canoe Pour Day" },
     { src: jooelFinal, alt: "Stuck in a Pickle Design" },
     { src: jrLeadApps, alt: "Junior Lead Applications" },
